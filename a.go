@@ -10,7 +10,7 @@ import (
 func main() {
     fmt.Println("life");
     db.Init("localhost", "leanote", "", "")
-
+ll
     notes := []map[string]interface{}{}
     db.ListByQ(db.Notes, bson.M{}, &notes);
     fmt.Println(notes)
