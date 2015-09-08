@@ -11,6 +11,7 @@ install:
   - ls -A
   - ls /
   - pwd
+
 script:
   - ls -A
   - go run a.go
